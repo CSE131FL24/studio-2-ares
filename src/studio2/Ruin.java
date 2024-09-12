@@ -40,9 +40,11 @@ public class Ruin {
             currentMoney--;  // Lose: decrease money by 1
 //          System.out.println("You lose! Your current money is: " + currentMoney);
         	boolean isWin = false;
-
         }
-       System.out.println("Simulation " + plays + ": " + " "+ currentMoney+ IsWin);
+        
+        }
+        
+       System.out.println("Simulation " + plays + ": " + " "+ currentMoney+ " " + isWin);
         
       
     }
